@@ -3,15 +3,7 @@ import './Footer.css'
 function Footer() {
     return (
         <div className='Footer'>
-            <div>
-        
-            </div>
-            <div>
-
-            </div>
-            <div>
-                
-            </div>
+            <p>Content copyright 2019. Hooper Irrigation Co. All rights reserved.</p>
         </div>
     )
 }

@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+.top-nav{
+    height: 11vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.top-nav .nav-links{
+  height: 100%;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+.top-nav .nav-links .link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    height: 100%;
+    padding: 0 9px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.top-nav .drop-icon {
+    display: none;
+    position: absolute;
+    top: 3vh;
+    align-items: center;
+    font-size: 25px;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    height: 100%;
+}
+
+.dropdown .dropbtn {
+    height: 100%;
+    font-size: 20px;    
+    border: none;
+    outline: none;
+    color: black;
+    background-color: inherit;
+    font-family: inherit;
+    padding: 0 9px;
+    font-weight: 600;
+  }
+
+  .dropdown .dropbtn:hover {
+   background: rgba(0,0,0,0.2)
+  }
+
+  i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin: 0 0 3px 3px;
+  }
+  
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content .link {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border-bottom: 1px solid black;
+  }
+
+  .dropdown-content .link:last-child {
+    border: none;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .link:hover {
+      height: 100%;
+      background: rgba(0,0,0,0.2)
+  }
+
+  @media screen and (max-width: 635px) {
+    .top-nav .nav-links{
+      display: none;
+    }
+    .top-nav .drop-icon {
+      display: flex;
+    }
+    .top-nav {
+      position: absolute;
+      right: 0;
+    }
+  }
+  
+  @media screen and (max-width: 635px) {
+    .top-nav.responsive{
+      display: flex;
+    }
+    .top-nav.responsive .nav-links{
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      top: 11vh;
+      right: 0;
+      background: white;
+      width: 100vw;
+    }
+    .top-nav.responsive .nav-links .link{
+      position: relative;
+      border-top: 1px solid black;
+
+    }
+    .top-nav.responsive .nav-links .dropbtn{
+      width: 100vw;
+      border-top: 1px solid black;
+    }
+    .top-nav.responsive .nav-links .dropdown .dropdown-content{
+      position: relative;
+      width: 100vw;
+    }
+    .top-nav.responsive .nav-links .dropdown .dropdown-content .link{
+      border-bottom: none;
+      box-shadow: none;
+      border-top: 1px solid black;
+    }
+  }

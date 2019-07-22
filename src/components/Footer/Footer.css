@@ -1,5 +1,14 @@
 .Footer {
-    height: 15vh;
+    height: 5vh;
     width: 100vw;
-    background: rgb(48, 61, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkgrey;
+}
+
+@media (max-width: 550px){
+    .Footer {
+        font-size: 10px;
+    }
 }
