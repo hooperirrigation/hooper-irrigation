@@ -1,5 +1,5 @@
 
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import './Nav.css'
 import { Link } from 'react-router-dom'
 function Nav() {
@@ -15,22 +15,21 @@ function Nav() {
             <div className="nav-links">
                 <Link className='link' to='/' onClick={toggleMenu}>Home</Link>
                 <Link className='link' to='/meetings' onClick={toggleMenu}>Meetings</Link>
+                <Link className='link' to='/schedules' onClick={toggleMenu}>Water Schedules</Link>
                 <div className="dropdown">
-                    <button className="dropbtn">Water Turns{' '}
+                    <button className="dropbtn">Documents{' '}
                         <i className="arrow down"></i>
                     </button>
                     <div className="dropdown-content">
-                        <Link className='link' to='/timecard1' onClick={toggleMenu}>TC 1</Link>
-                        <Link className='link' to='/timecard2' onClick={toggleMenu}>TC 2</Link>
-                        <Link className='link' to='/timecard3' onClick={toggleMenu}>TC 3</Link>
+                        <Link className='link' to='/' onClick={toggleMenu}>TC 2</Link>
+                        <Link className='link' to='/' onClick={toggleMenu}>TC 3</Link>
                     </div>
 
                 </div>
                 <Link className='link' to='/about' onClick={toggleMenu}>About</Link>
-                <Link className='link' to='/contact' onClick={toggleMenu}>Contact</Link>
 
             </div>
-            <div className="drop-icon" onClick={toggleMenu}>&#9776;</div>
+            <div className="drop-icon" id='hamburger-icon' onClick={toggleMenu} onMouseOver={toggleMenu}>&#9776;</div>
         </div >
     )
 }

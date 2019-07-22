@@ -36,11 +36,11 @@
 .dropdown {
     float: left;
     overflow: hidden;
-    height: 100%;
 }
 
 .dropdown .dropbtn {
     height: 100%;
+    cursor: pointer;
     font-size: 20px;    
     border: none;
     outline: none;
@@ -51,9 +51,10 @@
     font-weight: 600;
   }
 
+
   .dropdown .dropbtn:hover {
-   background: rgba(0,0,0,0.2)
-  }
+    background: rgba(0,0,0,0.2)
+   }
 
   i {
     border: solid black;
@@ -102,7 +103,7 @@
       background: rgba(0,0,0,0.2)
   }
 
-  @media screen and (max-width: 635px) {
+  @media screen and (max-width: 680px) {
     .top-nav .nav-links{
       display: none;
     }
@@ -114,30 +115,40 @@
       right: 0;
     }
   }
+  #hamburger-icon{
+    padding-right: 10px;
+  }
   
-  @media screen and (max-width: 635px) {
+  @media screen and (max-width: 680px) {
     .top-nav.responsive{
       display: flex;
     }
     .top-nav.responsive .nav-links{
+      height: auto;
+      width: 100vw;
       display: flex;
       flex-direction: column;
       position: fixed;
       top: 11vh;
       right: 0;
       background: white;
-      width: 100vw;
     }
     .top-nav.responsive .nav-links .link{
       position: relative;
       border-top: 1px solid black;
-
-    }
-    .top-nav.responsive .nav-links .dropbtn{
       width: 100vw;
-      border-top: 1px solid black;
+      padding: 7px;
+      height: auto;
     }
-    .top-nav.responsive .nav-links .dropdown .dropdown-content{
+
+    .top-nav.responsive .nav-links .dropbtn{
+      padding: 7px;
+      width: 100vw;
+      height: 25px;
+      border-top: 1px solid black;
+      height: auto;
+    }
+    .top-nav.responsive .dropdown-content{
       position: relative;
       width: 100vw;
     }
