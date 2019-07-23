@@ -151,12 +151,13 @@
     .top-nav.responsive .nav-links .dropbtn{
       padding: 7px;
       width: 100vw;
-      height: 25px;
+      height: auto;
       border-top: 1px solid black;
       height: auto;
     }
     .top-nav.responsive .dropdown-content{
       position: relative;
+      right: 0;
       width: 100vw;
     }
     .top-nav.responsive .nav-links .dropdown .dropdown-content .link{
