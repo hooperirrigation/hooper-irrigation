@@ -34,13 +34,18 @@
 }
 
 .dropdown {
+
     float: left;
     overflow: hidden;
+    height: 100%;
 }
 
-.dropdown .dropbtn {
+.dropdown .dropdown-content .link{
+  height: 40px;
+}
+
+ .dropdown .dropbtn {
     height: 100%;
-    cursor: pointer;
     font-size: 20px;    
     border: none;
     outline: none;
@@ -73,10 +78,12 @@
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: white;
+    background-color: whitesmoke;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.1);
     z-index: 1;
+    right: 25px;
+    border-radius: 0 0 5px 5px;
   }
   
   .dropdown-content .link {

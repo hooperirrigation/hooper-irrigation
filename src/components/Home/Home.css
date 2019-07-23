@@ -1,0 +1,27 @@
+.home-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.home-content h1{
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.content-container{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.sprinkler-image{
+    width: 40%;
+    box-shadow: 1px 1px 15px 0px rgba(29, 29, 29, 0.4);
+    border-radius: 5px;
+}
+
+.intro{
+    width: 40%;
+    margin: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}

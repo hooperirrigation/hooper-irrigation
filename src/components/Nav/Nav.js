@@ -17,12 +17,12 @@ function Nav() {
                 <Link className='link' to='/meetings' onClick={toggleMenu}>Meetings</Link>
                 <Link className='link' to='/schedules' onClick={toggleMenu}>Water Schedules</Link>
                 <div className="dropdown">
-                    <button className="dropbtn">Documents{' '}
+                    <button className="dropbtn">Info{' '}
                         <i className="arrow down"></i>
                     </button>
                     <div className="dropdown-content">
-                        <Link className='link' to='/' onClick={toggleMenu}>TC 2</Link>
-                        <Link className='link' to='/' onClick={toggleMenu}>TC 3</Link>
+                        <Link className='link' to='/' onClick={toggleMenu}>Bylaws</Link>
+                        <Link className='link' to='/' onClick={toggleMenu}>Specifications</Link>
                     </div>
 
                 </div>
