@@ -4,24 +4,82 @@
     justify-content: flex-start;
     align-items: center;
 }
-
 .home-content h1{
-    font-family: Georgia, 'Times New Roman', Times, serif
+    color: rgb(24, 133, 24);
 }
 
 .content-container{
+    flex-wrap: wrap;
     display: flex;
     justify-content: center; 
     align-items: center;
 }
+
 .sprinkler-image{
-    width: 40%;
+    margin: 5px;
+    width: 45%;
+    min-width: 250px;
     box-shadow: 1px 1px 15px 0px rgba(29, 29, 29, 0.4);
     border-radius: 5px;
 }
 
 .intro{
-    width: 40%;
-    margin: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif
+    width: 85%;
+    margin: 50px 15px 15px 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3vw;
+}
+
+.contact{
+    margin: 50px;
+    align-items: center;
+    min-width: 250px;
+    width: 20px;
+}
+
+.home-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+#contact-us{
+    margin: 3px;
+    text-decoration: underline;
+    color: rgb(42, 42, 42);
+
+}
+
+.subheader{
+    margin: 15px 3px 3px 3px;
+    text-align: left;
+    color: rgb(51, 51, 51);
+    font-size: 18px;
+}
+
+.subheader:first-of-type{
+    margin: 3px;
+}
+
+.hours{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.left-align{
+    font-size: 1em;
+    text-align: left;
+    margin: 3px;
+}
+
+@media screen and (max-width: 577px){
+    .home-text{
+        width: 90%;
+    }
+    .intro{
+        font-size: 20px;
+        margin: 10px;
+    }
 }

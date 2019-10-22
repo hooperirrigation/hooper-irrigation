@@ -14,15 +14,14 @@ function Nav() {
         <div className={`${navClass}`}>
             <div className="nav-links">
                 <Link className='link' to='/' onClick={toggleMenu}>Home</Link>
-                <Link className='link' to='/meetings' onClick={toggleMenu}>Meetings</Link>
                 <Link className='link' to='/schedules' onClick={toggleMenu}>Water Schedules</Link>
                 <div className="dropdown">
                     <button className="dropbtn">Info{' '}
                         <i className="arrow down"></i>
                     </button>
                     <div className="dropdown-content">
-                        <Link className='link' to='/' onClick={toggleMenu}>Bylaws</Link>
-                        <Link className='link' to='/' onClick={toggleMenu}>Specifications</Link>
+                        <Link className='link' to='/bylaws' onClick={toggleMenu}>Bylaws</Link>
+                        <Link className='link' to='/specs' onClick={toggleMenu}>Specifications</Link>
                     </div>
 
                 </div>
