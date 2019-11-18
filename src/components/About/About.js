@@ -6,7 +6,7 @@ function About() {
             <div className='content about-content'>
                 <h1>About Us</h1>
                 <span className="person">
-                    <h4>Board President - Theo Cox1</h4>
+                    <h4>Board President - Theo Cox </h4>
                 </span>
                 <span className="person">
                     <h4>Vice President - Rex Hancock</h4>
