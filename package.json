@@ -1,5 +1,5 @@
 {
-  "homepage": "http://hooperirrigation.github.io/hooper-irrigation",
+  "homepage": "https://hooperirrigation.github.io/hooper-irrigation",
   "name": "hooper-irrigation",
   "version": "0.1.0",
   "private": true,
@@ -17,6 +17,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
+
   "eslintConfig": {
     "extends": "react-app"
   },
