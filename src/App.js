@@ -9,7 +9,7 @@ function App() {
   return (
       <div className="App">
         <div className="overlay">
-        <HashRouter>
+        <HashRouter basename='/'>
           <div className="header">
             <img className='logo' src={logo} alt="" />
             <Nav />
