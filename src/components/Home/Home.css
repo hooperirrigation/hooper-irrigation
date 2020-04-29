@@ -74,12 +74,18 @@
     margin: 3px;
 }
 
-@media screen and (max-width: 577px){
+@media screen and (max-width: 672px){
     .home-text{
         width: 90%;
     }
     .intro{
         font-size: 18px;
         margin: 10px;
+    }
+}
+
+@media screen and (max-width: 815px){
+    .intro{
+        font-size: 3vw;
     }
 }
