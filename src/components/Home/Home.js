@@ -18,8 +18,12 @@ function Home() {
                             </h2>   
                             <h4 className='subheader'>Hours</h4>
                             <div className="hours">
-                                <p className='left-align'>Monday - Friday</p>
-                                <p className='left-align'>9AM - 4PM</p>
+                                <p className='left-align'>Monday - Thursday</p>
+                                <p className='left-align'>9am - 4:30pm</p>
+                            </div>
+                            <div className="hours">
+                                <p className='left-align'>Friday</p>
+                                <p className='left-align'>9am - 12pm</p>
                             </div>
                             <div className="hours">
                                 <p className='left-align'>Saturday - Sunday</p>

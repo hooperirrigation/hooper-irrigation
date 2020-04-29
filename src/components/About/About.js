@@ -15,7 +15,7 @@ function About() {
                     <h4>Treasurer - John Diamond</h4>
                 </span>
                 <span className="person">
-                    <h4>Director - Clint Nesbitt</h4>
+                    <h4>Director - Clint Naisbitt</h4>
                 </span>
                 <span className="person">
                     <h4>Director - Dale Fowers</h4>
