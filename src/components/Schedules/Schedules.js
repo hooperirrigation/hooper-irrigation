@@ -49,7 +49,7 @@ function Schedules() {
         <div className='container'>
             <div className="content" id='schedules-content'>
                 <h2>Water Schedules</h2>
-                <h3>Updated for 2020</h3>
+                <h3 className='update-notice'>Updated for 2020</h3>
                 <table className="schedule-table">
                     <tr>
                         <th>Ditch</th>
