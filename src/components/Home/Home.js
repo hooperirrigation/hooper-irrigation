@@ -12,6 +12,9 @@ function Home() {
                         <p className='intro'>
                             Hooper Irrigation Company is a non-profit irrigation company providing Hooper City and Taylor with secondary irrigation water and flood irrigation water to specific areas in western Weber and Davis Counties. This website is intended to help you find the information you are looking for regarding your irrigation water.
                         </p>
+                        <p className='status'>
+                            *Our Service Agreement is now available under info tab*
+                            </p>
                         <div className="contact">
                             <h2 id='contact-us'>
                                 Contact Us
@@ -29,12 +32,17 @@ function Home() {
                                 <p className='left-align'>Saturday - Sunday</p>
                                 <p className='left-align'>Closed</p>
                             </div>
+
+                            <h4 className="subheader">Phone</h4>
+                            <p className='left-align'>(801) 985-8429</p>
+
+                            <h4 className="subheader">Email</h4>
+                            <p className='left-align'>hooperirrigationco@msn.com</p>
+
                             <h4 className="subheader">Address</h4>
                                 <p className='left-align'>
                                     5375 S 5500 W, Hooper, UT 84315
                                 </p>
-                            <h4 className="subheader">Phone</h4>
-                            <p className='left-align'>(801) 985-8429</p>
                         </div>
 
                     </div>

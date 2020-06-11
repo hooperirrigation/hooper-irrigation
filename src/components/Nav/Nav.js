@@ -20,6 +20,7 @@ function Nav() {
                         <i className="arrow down"></i>
                     </button>
                     <div className="dropdown-content">
+                        <Link className='link' to='/service' onClick={toggleMenu}>Service Agreement</Link>
                         <Link className='link' to='/bylaws' onClick={toggleMenu}>Bylaws</Link>
                         <Link className='link' to='/specs' onClick={toggleMenu}>Specifications</Link>
                     </div>
