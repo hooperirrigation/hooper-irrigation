@@ -1,12 +1,18 @@
 import React from 'react'
 import './Home.css'
 import sprinklers from '../../Assets/sprinklers.jpeg'
+import cutbackNotice from '../../Assets/Secondary Cutback May 2021.pdf'
 
 function Home() {
     return (
         <div className='container'>
             <div className="content home-content">
                 <h1>Welcome to Hooper Irrigation</h1>
+                <div className='notice'>
+                    <h1>2021 SECONDARY WATER CUTBACK NOTICE</h1>
+                    <h2>Click below for official notice</h2>
+                    <a href={cutbackNotice} target='_blank' rel="noopener noreferrer">View Here</a>
+                </div>
                 <div className="content-container">
                     <div className="home-text">
                         <p className='intro'>
