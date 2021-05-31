@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7b6493ccf5556303dda7427bf40abb5d",
+    "revision": "2e80610c81932293f7748ec08731443f",
     "url": "/index.html"
   },
   {
-    "revision": "4cfeb53012007eb3ff11",
-    "url": "/static/css/main.481643b7.chunk.css"
+    "revision": "fc261179813681568af4",
+    "url": "/static/css/main.924edc5e.chunk.css"
   },
   {
-    "revision": "c5383f1e678975f3506c",
-    "url": "/static/js/2.64ce052d.chunk.js"
+    "revision": "31835e727e0d309c27a0",
+    "url": "/static/js/2.102c818d.chunk.js"
   },
   {
     "revision": "dbe5ca7a82c728776bb536c3d2d64135",
-    "url": "/static/js/2.64ce052d.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.102c818d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4cfeb53012007eb3ff11",
-    "url": "/static/js/main.a5f87399.chunk.js"
+    "revision": "fc261179813681568af4",
+    "url": "/static/js/main.b7e4ae43.chunk.js"
   },
   {
     "revision": "9822300cbc8a2d524f72",
@@ -74,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d3f9af5c541c79c03fec2e03050111ac",
     "url": "/static/media/Naisbitt Cox Master Half Turns 2021.d3f9af5c.pdf"
+  },
+  {
+    "revision": "e40d112d14d824539864b77d5f72b2f3",
+    "url": "/static/media/Secondary Cutback May 2021.e40d112d.pdf"
   },
   {
     "revision": "862a6279af9c1de72c9e819f59787169",
