@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.924edc5e.chunk.css",
-    "main.js": "/static/js/main.b7e4ae43.chunk.js",
-    "main.js.map": "/static/js/main.b7e4ae43.chunk.js.map",
+    "main.css": "/static/css/main.9bce83e9.chunk.css",
+    "main.js": "/static/js/main.a3e98b4c.chunk.js",
+    "main.js.map": "/static/js/main.a3e98b4c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.35e1b92c.js",
     "runtime-main.js.map": "/static/js/runtime-main.35e1b92c.js.map",
-    "static/js/2.102c818d.chunk.js": "/static/js/2.102c818d.chunk.js",
-    "static/js/2.102c818d.chunk.js.map": "/static/js/2.102c818d.chunk.js.map",
+    "static/js/2.96696752.chunk.js": "/static/js/2.96696752.chunk.js",
+    "static/js/2.96696752.chunk.js.map": "/static/js/2.96696752.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f2b73f1b235c9e6e4226ab87882e9e4e.js": "/precache-manifest.f2b73f1b235c9e6e4226ab87882e9e4e.js",
+    "precache-manifest.2eeb58ec3d7e3fdf3dd1082ecd4fb9b5.js": "/precache-manifest.2eeb58ec3d7e3fdf3dd1082ecd4fb9b5.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.924edc5e.chunk.css.map": "/static/css/main.924edc5e.chunk.css.map",
-    "static/js/2.102c818d.chunk.js.LICENSE.txt": "/static/js/2.102c818d.chunk.js.LICENSE.txt",
+    "static/css/main.9bce83e9.chunk.css.map": "/static/css/main.9bce83e9.chunk.css.map",
+    "static/js/2.96696752.chunk.js.LICENSE.txt": "/static/js/2.96696752.chunk.js.LICENSE.txt",
+    "static/media/Annual_Mtg_Notice_2022.pdf": "/static/media/Annual_Mtg_Notice_2022.4c845219.pdf",
+    "static/media/Application for Director.pdf": "/static/media/Application for Director.ae736c25.pdf",
     "static/media/Beus Mitchell Master Half Turns 2021.pdf": "/static/media/Beus Mitchell Master Half Turns 2021.6f96a2e7.pdf",
     "static/media/Buck McLean Master Half Turns 2021.pdf": "/static/media/Buck McLean Master Half Turns 2021.7cfb5877.pdf",
     "static/media/Cristelli Penman Master Half Turns 2021.pdf": "/static/media/Cristelli Penman Master Half Turns 2021.24964ab0.pdf",
     "static/media/Dance Calderwood Master Half Turns 2021.pdf": "/static/media/Dance Calderwood Master Half Turns 2021.68a775f0.pdf",
+    "static/media/Director Code of Ethics.pdf": "/static/media/Director Code of Ethics.4a0f0e22.pdf",
     "static/media/Gibson East Master Half Turns 2021.pdf": "/static/media/Gibson East Master Half Turns 2021.99c14cb6.pdf",
     "static/media/Hooper Irr Co Std Details.pdf": "/static/media/Hooper Irr Co Std Details.6ba57e9a.pdf",
     "static/media/Hooper Irrigation Bylaws.pdf": "/static/media/Hooper Irrigation Bylaws.538771e8.pdf",
@@ -25,7 +28,6 @@
     "static/media/Muskrat 4 Fowers Master Half Turns 2021.pdf": "/static/media/Muskrat 4 Fowers Master Half Turns 2021.9cd92fac.pdf",
     "static/media/N Simpson W Simpson Master Half Turns 2021.pdf": "/static/media/N Simpson W Simpson Master Half Turns 2021.4c33ee81.pdf",
     "static/media/Naisbitt Cox Master Half Turns 2021.pdf": "/static/media/Naisbitt Cox Master Half Turns 2021.d3f9af5c.pdf",
-    "static/media/Secondary Cutback May 2021.pdf": "/static/media/Secondary Cutback May 2021.e40d112d.pdf",
     "static/media/Service Agreement.pdf": "/static/media/Service Agreement.862a6279.pdf",
     "static/media/South 1 & 6 Master Half Turns 2021.pdf": "/static/media/South 1 & 6 Master Half Turns 2021.0ccc3723.pdf",
     "static/media/South 11 & 12 Master Half Turns 2021.pdf": "/static/media/South 11 & 12 Master Half Turns 2021.95562d96.pdf",
@@ -45,8 +47,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.35e1b92c.js",
-    "static/js/2.102c818d.chunk.js",
-    "static/css/main.924edc5e.chunk.css",
-    "static/js/main.b7e4ae43.chunk.js"
+    "static/js/2.96696752.chunk.js",
+    "static/css/main.9bce83e9.chunk.css",
+    "static/js/main.a3e98b4c.chunk.js"
   ]
 }
