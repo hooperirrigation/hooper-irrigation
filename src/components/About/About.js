@@ -1,42 +1,56 @@
 import React from 'react'
 import './About.css'
+import directorApplication from '../../Assets/Application for Director.pdf'
+import directorCodeofEthics from '../../Assets/Director Code of Ethics.pdf'
 function About() {
     return (
         <div className="container">
             <div className='content about-content'>
                 <h1>About Us</h1>
                 <span className="person">
-                    <h4>Board President - Theo Cox</h4>
+                    <h4>Theo G. Cox - Board President, Frew Branch</h4>
                 </span>
                 <span className="person">
-                    <h4>Vice President - Rex Hancock</h4>
+                    <h4>Rex Hancock - Vice President, West Weber Branch</h4>
                 </span>
                 <span className="person">
-                    <h4>Treasurer - John Diamond</h4>
+                    <h4>John Diamond - Treasurer, South Branch</h4>
                 </span>
                 <span className="person">
-                    <h4>Director - Clint Naisbitt</h4>
+                    <h4>Stan Fowers - Director, Muskrat Branch</h4>
                 </span>
                 <span className="person">
-                    <h4>Director - Dale Fowers</h4>
+                    <h4>Dave Favero - Director, Taylor Branch</h4>
                 </span>
                 <span className="person">
-                    <h4>Director - Dave Favero</h4>
+                    <h4>Clint Naisbitt - Director, Flinders Branch</h4>
                 </span>
                 <span className="person">
-                    <h4>Director - Stan Fowers</h4>
+                    <h4> Dale Fowers - Director, North Fork Branch</h4>
                 </span>
                 <span className="person">
-                    <h4>Secretary - Michelle Pinkston</h4>
+                    <h4>Scott Fowers - Water Master</h4>
                 </span>
                 <span className="person">
-                    <h4>Water Master - Scott Fowers</h4>
+                    <h4>Dennis Flinders - Secondary Water Manager</h4>
                 </span>
                 <span className="person">
-                    <h4>Secondary Water Manager - Dennis Flinders</h4>
+                    <h4>Michelle Pinkston - Secretary</h4>
                 </span>
+                <div className='notice'>
+                    <div className='content-container'>
+                        <div className='link-box'>
+                            <h2>Director Application</h2>
+                            <a href={directorApplication} target='_blank' rel="noopener noreferrer">View Here</a>
+                        </div>
+                        <div className='link-box'>
+                            <h2>Director Code of Ethics</h2>
+                            <a href={directorCodeofEthics} target='_blank' rel="noopener noreferrer">View Here</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-               
+            
         </div>
     )
 }

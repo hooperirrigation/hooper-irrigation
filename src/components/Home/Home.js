@@ -1,7 +1,9 @@
 import React from 'react'
 import './Home.css'
 import sprinklers from '../../Assets/sprinklers.jpeg'
-import cutbackNotice from '../../Assets/Secondary Cutback May 2021.pdf'
+import meetingNotice from '../../Assets/Annual_Mtg_Notice_2022.pdf'
+import directorApplication from '../../Assets/Application for Director.pdf'
+import directorCodeOfEthics from '../../Assets/Director Code of Ethics.pdf'
 
 function Home() {
     return (
@@ -9,9 +11,28 @@ function Home() {
             <div className="content home-content">
                 <h1>Welcome to Hooper Irrigation</h1>
                 <div className='notice'>
-                    <h1>2021 SECONDARY WATER CUTBACK NOTICE</h1>
-                    <h2>Click below for official notice</h2>
-                    <a href={cutbackNotice} target='_blank' rel="noopener noreferrer">View Here</a>
+                    <h1>2022 Annual Stockholder's Meeting of Hooper Irrigation Company</h1>
+                    <h1>Hooper City Civic Center</h1>
+                    <h1>Monday April 25th, 2022 at 7:00 p.m.</h1>
+                    <div className='content-container'>
+                        <div className='link-box'>
+                        <h2>Official Meeting Notice</h2>
+                        <a href={meetingNotice} target='_blank' rel="noopener noreferrer">View Here</a>
+                        </div>       
+                    </div>          
+                </div>
+                <div className='notice'>
+                    <h1>Apply to be a director</h1>
+                    <div className='content-container'>
+                        <div className='link-box'>
+                            <h2>Director Application</h2>
+                            <a href={directorApplication} target='_blank' rel="noopener noreferrer">View Here</a>
+                        </div>
+                        <div className='link-box'>
+                            <h2>Director Code of Ethics</h2>
+                            <a href={directorCodeOfEthics} target='_blank' rel="noopener noreferrer">View Here</a>
+                        </div>
+                    </div>
                 </div>
                 <div className="content-container">
                     <div className="home-text">
