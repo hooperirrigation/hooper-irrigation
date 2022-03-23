@@ -21,15 +21,15 @@ function Home() {
                         </div>       
                     </div>          
                 </div>
-                <div className='notice'>
-                    <h1>Apply to be a director</h1>
+                <div>
+                    <h2 id='black-txt'>Apply to be a director</h2>
                     <div className='content-container'>
                         <div className='link-box'>
-                            <h2>Director Application</h2>
+                            <h3>Director Application</h3>
                             <a href={directorApplication} target='_blank' rel="noopener noreferrer">View Here</a>
                         </div>
                         <div className='link-box'>
-                            <h2>Director Code of Ethics</h2>
+                            <h3>Director Code of Ethics</h3>
                             <a href={directorCodeOfEthics} target='_blank' rel="noopener noreferrer">View Here</a>
                         </div>
                     </div>

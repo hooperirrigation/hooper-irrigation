@@ -12,24 +12,27 @@
 .notice{
     width: 85%;
     padding: 10px;
-    background-color: rgba(0, 48, 200, 0.3);
+    background-color: rgba(8, 167, 0, 0.18);
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.75);
     border-radius: 7px;
     border-style: solid;
-    border-color: rgb(0, 35, 150);
+    border-color: rgb(0, 130, 0);
     margin: 10px;
 }
 
+#black-txt{
+    color: black;
+}
 .notice h1 {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.7vw;
+    font-size: 2vh;
     margin: 5px;
 }
 .notice h2 {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5vw;
+    font-size: 1.7vh;
     margin: 10px 0px 5px 0px;
     padding-bottom: 5px;
 }
@@ -49,7 +52,7 @@
 }
 
 .link-box{
-    margin: 5px 30px;
+    margin: 5px 50px;
     background-color: rgba(0, 13, 67, 0.1);
     border-width: 1px;
     padding: 0px 5px 12px 5px;
