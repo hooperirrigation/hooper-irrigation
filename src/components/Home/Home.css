@@ -20,6 +20,16 @@
     margin: 10px;
 }
 
+#secondary-notice{
+    background-color: rgba(0, 11, 167, 0.18);
+    border-color: rgb(0, 20, 130);
+}
+
+#secondary-notice h1{
+    font-size: 2.5vh;
+
+}
+
 #black-txt{
     color: black;
 }
@@ -52,7 +62,8 @@
 }
 
 .link-box{
-    margin: 5px 50px;
+    margin: 5px 15px;
+    width: 15em;
     background-color: rgba(0, 13, 67, 0.1);
     border-width: 1px;
     padding: 0px 5px 12px 5px;
@@ -80,7 +91,7 @@
     width: 85%;
     margin: 50px 15px 15px 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2vw;
+    font-size: 2.5vh;
 }
 
 .status{
@@ -100,6 +111,7 @@
 .home-text{
     display: flex;
     flex-direction: column;
+
     align-items: center;
     width: 50%;
 }
@@ -136,16 +148,11 @@
 
 @media screen and (max-width: 672px){
     .home-text{
+        margin-top: 25px;
         width: 90%;
     }
     .intro{
-        font-size: 18px;
+        /* font-size: 18px; */
         margin: 10px;
-    }
-}
-
-@media screen and (max-width: 815px){
-    .intro{
-        font-size: 3vw;
     }
 }

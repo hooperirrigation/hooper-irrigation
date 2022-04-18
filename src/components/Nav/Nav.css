@@ -25,22 +25,22 @@
     font-weight: 600;
 }
 
-.top-nav .drop-icon {
+ .top-nav .drop-icon {
     display: none;
     position: absolute;
     top: 3vh;
     align-items: center;
     font-size: 25px;
-}
+} 
 
-.dropdown {
+ .dropdown {
 
     float: left;
     overflow: hidden;
     height: 100%;
-}
+} 
 
-.dropdown .dropdown-content .link{
+ .dropdown .dropdown-content .link{
   height: 40px;
 }
 
@@ -54,7 +54,7 @@
     font-family: inherit;
     padding: 0 9px;
     font-weight: 600;
-  }
+  } 
 
 
   .dropdown .dropbtn:hover {
@@ -103,7 +103,7 @@
   .dropdown:hover .dropdown-content {
     display: flex;
     flex-direction: column;
-  }
+  } */
 
   .link:hover {
       height: 100%;

@@ -1,0 +1,33 @@
+#pf-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.pf-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.pf-subtitle{
+    margin-left: 10%;
+}
+
+.pf-card{
+    margin-left: 15%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1em;
+}
+
+
+
+
+.pf-card a{
+    margin: 5px;
+    font-weight: 700;
+}

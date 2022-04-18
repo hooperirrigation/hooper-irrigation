@@ -37,18 +37,6 @@ function About() {
                 <span className="person">
                     <h4>Michelle Pinkston - Secretary</h4>
                 </span>
-                <div className='notice'>
-                    <div className='content-container'>
-                        <div className='link-box'>
-                            <h2>Director Application</h2>
-                            <a href={directorApplication} target='_blank' rel="noopener noreferrer">View Here</a>
-                        </div>
-                        <div className='link-box'>
-                            <h2>Director Code of Ethics</h2>
-                            <a href={directorCodeofEthics} target='_blank' rel="noopener noreferrer">View Here</a>
-                        </div>
-                    </div>
-                </div>
             </div>
             
         </div>
