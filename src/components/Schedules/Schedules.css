@@ -2,9 +2,8 @@
     color: maroon;
 }
 .schedule-table{
-    min-width: 270px;
-    max-width: 500px;
-    width: 50%;
+    max-width: 600px;
+    width: 85%;
     overflow: auto;
     border-radius: 5px;
     border-collapse: collapse;
@@ -20,6 +19,12 @@
     padding: 5px;
 }
 
+.td-date{
+    color: rgb(91, 91, 91);
+    font-size: smaller;
+    margin: 0px;
+}
+
 
 .schedule-table th{
     border: 1px solid black;
@@ -27,9 +32,16 @@
     padding: 7px;
 }
 
+
 .schedule-table td:first-child{
     text-align: left;
     padding-left: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-width: 0 0 1px 0;
+    margin-bottom: -.5px;
+
 }
 .schedule-table td a{
     text-decoration: none;
@@ -46,7 +58,14 @@
 }
 
 #narrow-notice{
-    min-width: 270px;
     max-width: 500px;
-    width: 50%;
+    padding: 5px;
+    font-size: 1em;
 }
+
+@media screen and (max-width: 680px) {
+    .schedule-table td:first-child{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+  }
