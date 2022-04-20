@@ -1,8 +1,8 @@
 import React from 'react'
-import beusMitchell from '../../Assets/masterSchedules/Beus Mitchell Half 2022.pdf'
+import beusMitchell from '../../Assets/masterSchedules/Beus Mitchell Half 2022 (1).pdf'
 import buckMclean from '../../Assets/masterSchedules/Buck McLean Half 2022 (1).pdf'
-import cristelliPenman from '../../Assets/masterSchedules/Cristelli Penman Half 2022.pdf'
-import danceCalderwood from '../../Assets/masterSchedules/Dance Calderwood Half 2022.pdf'
+import cristelliPenman from '../../Assets/masterSchedules/Cristelli Penman Half 2022 (1).pdf'
+import danceCalderwood from '../../Assets/masterSchedules/Dance Calderwood Half 2022 (1).pdf'
 import gibsonEast from '../../Assets/masterSchedules/Gibson East Half 2022.pdf'
 import hooperMainTopZinie from '../../Assets/masterSchedules/Hooper Main Top Zinie Half 2022.pdf'
 import mcfarlandHeslop from '../../Assets/masterSchedules/McFarland Heslop Half 2022.pdf'
@@ -16,11 +16,11 @@ import south45 from '../../Assets/masterSchedules/South 4 & 5 Half 2022.pdf'
 import south78 from '../../Assets/masterSchedules/South 7 & 8 Half 2022.pdf'
 import south910 from '../../Assets/masterSchedules/South 9 & 10 Half 2022.pdf'
 import south1112 from '../../Assets/masterSchedules/South 11 & 12 Half 2022.pdf'
-import taylor1 from '../../Assets/masterSchedules/Taylor Half 1 2022.pdf'
+import taylor1 from '../../Assets/masterSchedules/Taylor Half 1 2022 (1).pdf'
 import taylor2 from '../../Assets/masterSchedules/Taylor Half 2 2022.pdf'
 import taylor3 from '../../Assets/masterSchedules/Taylor Half 3 2022.pdf'
 import westMoore from '../../Assets/masterSchedules/West Moore Half 2022.pdf'
-import widdisonHull from '../../Assets/masterSchedules/Widdison Hull Half 2022.pdf'
+import widdisonHull from '../../Assets/masterSchedules/Widdison Hull Half 2022 (1).pdf'
 import ww8Surrage from '../../Assets/masterSchedules/WW8 Surrage Half 2022 (1).pdf'
 import './Schedules.css'
 
@@ -29,7 +29,7 @@ function Schedules() {
         <div className='container'>
             <div className="content" id='schedules-content'>
                 <h2>Water Schedules</h2>
-                <h3 className='notice' id='narrow-notice'>Updated April 18, 2022</h3>
+                <h3 className='notice' id='narrow-notice'>Updated April 19, 2022</h3>
                 <table className="schedule-table">
                     <tr>
                         <th>Ditch</th>
@@ -37,7 +37,7 @@ function Schedules() {
                         <th>Download File</th>
                     </tr>
                     <tr>
-                        <td><div>Beus Mitchell </div><p className='td-date'>Apr 17, 2022</p></td>
+                        <td><div>Beus Mitchell </div><p className='td-date'>Apr 19, 2022</p></td>
                         <td><a href={beusMitchell} target='_blank' rel="noopener noreferrer">View</a></td>
                         <td><a href={beusMitchell} download>Download</a></td>
                     </tr>
@@ -47,12 +47,12 @@ function Schedules() {
                         <td><a href={buckMclean} download>Download</a></td>
                     </tr>
                     <tr>
-                        <td>Cristelli Penman <p className='td-date'>Apr 17, 2022</p></td>
+                        <td>Cristelli Penman <p className='td-date'>Apr 19, 2022</p></td>
                         <td><a href={cristelliPenman} target='_blank' rel="noopener noreferrer">View</a></td>
                         <td><a href={cristelliPenman} download>Download</a></td>
                     </tr>
                     <tr>
-                        <td>Dance Calderwood <p className='td-date'>Apr 17, 2022</p></td>
+                        <td>Dance Calderwood <p className='td-date'>Apr 19, 2022</p></td>
                         <td><a href={danceCalderwood} target='_blank' rel="noopener noreferrer">View</a></td>
                         <td><a href={danceCalderwood} download>Download</a></td>
                     </tr>
@@ -122,7 +122,7 @@ function Schedules() {
                         <td><a href={south1112} download>Download</a></td>
                     </tr>
                     <tr>
-                        <td>Taylor Half 1 <p className='td-date'>Apr 17, 2022</p></td>
+                        <td>Taylor 1 <p className='td-date'>Apr 19, 2022</p></td>
                         <td><a href={taylor1} target='_blank' rel="noopener noreferrer">View</a></td>
                         <td><a href={taylor1} download>Download</a></td>
                     </tr>
@@ -142,7 +142,7 @@ function Schedules() {
                         <td><a href={westMoore} download>Download</a></td>
                     </tr>
                     <tr>
-                        <td>Widdison Hull <p className='td-date'>Apr 17, 2022</p></td>
+                        <td>Widdison Hull <p className='td-date'>Apr 19, 2022</p></td>
                         <td><a href={widdisonHull} target='_blank' rel="noopener noreferrer">View</a></td>
                         <td><a href={widdisonHull} download>Download</a></td>
                     </tr>
