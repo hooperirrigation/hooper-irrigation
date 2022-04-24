@@ -1,6 +1,6 @@
 import React from 'react'
 import beusMitchell from '../../Assets/masterSchedules/Beus Mitchell Half 2022 (1).pdf'
-import buckMclean from '../../Assets/masterSchedules/Buck McLean Half 2022 (1).pdf'
+import buckMclean from '../../Assets/masterSchedules/Buck McLean Half 2022 (2).pdf'
 import cristelliPenman from '../../Assets/masterSchedules/Cristelli Penman Half 2022 (1).pdf'
 import danceCalderwood from '../../Assets/masterSchedules/Dance Calderwood Half 2022 (1).pdf'
 import gibsonEast from '../../Assets/masterSchedules/Gibson East Half 2022.pdf'
@@ -8,14 +8,14 @@ import hooperMainTopZinie from '../../Assets/masterSchedules/Hooper Main Top Zin
 import mcfarlandHeslop from '../../Assets/masterSchedules/McFarland Heslop Half 2022.pdf'
 import muskrat1Cox from '../../Assets/masterSchedules/Muskrat 1 Cox Half 2022.pdf'
 import muskrat4Fowers from '../../Assets/masterSchedules/Muskrat 4 Fowers Half 2022.pdf'
-import nsimpsonWsimpson from '../../Assets/masterSchedules/N Simpson W Simpson Half 2022.pdf'
+import nsimpsonWsimpson from '../../Assets/masterSchedules/N Simpson W Simpson Half 2022 (1).pdf'
 import naisbittMuskrat3 from '../../Assets/masterSchedules/Naisbitt Muskrat 3 Half 2022.pdf'
 import south16 from '../../Assets/masterSchedules/South 1 & 6 Half 2022.pdf'
 import south23 from '../../Assets/masterSchedules/South 2 & 3 Half 2022.pdf'
 import south45 from '../../Assets/masterSchedules/South 4 & 5 Half 2022.pdf'
 import south78 from '../../Assets/masterSchedules/South 7 & 8 Half 2022.pdf'
 import south910 from '../../Assets/masterSchedules/South 9 & 10 Half 2022.pdf'
-import south1112 from '../../Assets/masterSchedules/South 11 & 12 Half 2022.pdf'
+import south1112 from '../../Assets/masterSchedules/South 11 & 12 Half 2022 (1).pdf'
 import taylor1 from '../../Assets/masterSchedules/Taylor Half 1 2022 (1).pdf'
 import taylor2 from '../../Assets/masterSchedules/Taylor Half 2 2022.pdf'
 import taylor3 from '../../Assets/masterSchedules/Taylor Half 3 2022.pdf'
@@ -29,7 +29,7 @@ function Schedules() {
         <div className='container'>
             <div className="content" id='schedules-content'>
                 <h2>Water Schedules</h2>
-                <h3 className='notice' id='narrow-notice'>Updated April 19, 2022</h3>
+                <h3 className='notice' id='narrow-notice'>Updated April 24, 2022</h3>
                 <table className="schedule-table">
                     <tr>
                         <th>Ditch</th>
@@ -42,7 +42,7 @@ function Schedules() {
                         <td><a href={beusMitchell} download>Download</a></td>
                     </tr>
                     <tr>
-                        <td>Buck McLean <p className='td-date'>Apr 18, 2022</p></td>
+                        <td>Buck McLean <p className='td-date'>Apr 24, 2022</p></td>
                         <td><a href={buckMclean} target='_blank' rel="noopener noreferrer">View</a></td>
                         <td><a href={buckMclean} download>Download</a></td>
                     </tr>
@@ -82,7 +82,7 @@ function Schedules() {
                         <td><a href={muskrat4Fowers} download>Download</a></td>
                     </tr>
                     <tr>
-                        <td>N Simpson W Simpson <p className='td-date'>Apr 17, 2022</p></td>
+                        <td>N Simpson W Simpson <p className='td-date'>Apr 24, 2022</p></td>
                         <td><a href={nsimpsonWsimpson} target='_blank' rel="noopener noreferrer">View</a></td>
                         <td><a href={nsimpsonWsimpson} download>Download</a></td>
                     </tr>
@@ -117,7 +117,7 @@ function Schedules() {
                         <td><a href={south910} download>Download</a></td>
                     </tr>
                     <tr>
-                        <td>South 11 &amp; 12 <p className='td-date'>Apr 17, 2022</p></td>
+                        <td>South 11 &amp; 12 <p className='td-date'>Apr 24, 2022</p></td>
                         <td><a href={south1112} target='_blank' rel="noopener noreferrer">View</a></td>
                         <td><a href={south1112} download>Download</a></td>
                     </tr>
