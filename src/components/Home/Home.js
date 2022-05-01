@@ -10,7 +10,7 @@ function Home() {
         <div className='container'>
             <div className="content home-content">
                 <h1>Welcome to Hooper Irrigation</h1>
-                <div className='notice'>
+                {/* <div className='notice'>
                     <h1>2022 Annual Stockholder's Meeting of Hooper Irrigation Company</h1>
                     <h1>Hooper City Civic Center</h1>
                     <h1>Monday April 25th, 2022 at 7:00 p.m.</h1>
@@ -20,10 +20,10 @@ function Home() {
                         <a href={meetingNotice} target='_blank' rel="noopener noreferrer">View Here</a>
                         </div>       
                     </div>          
-                </div>
+                </div> */}
 
                 
-                <div className='notice' id='secondary-notice'>
+                <div className='notice' >
                     <h1 id='black-txt'>Secondary Pressurized Water bill begins on May 15th, 2022.</h1>
                 </div>
                 
