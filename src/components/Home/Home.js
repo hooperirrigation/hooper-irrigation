@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css'
 import sprinklers from '../../Assets/sprinklers.jpeg'
-import meetingNotice from '../../Assets/Annual_Mtg_Notice_2022.pdf'
+import secondaryLetter from '../../Assets/Secondary Water Letter 2022.pdf'
 import directorApplication from '../../Assets/Application for Director.pdf'
 import directorCodeOfEthics from '../../Assets/Director Code of Ethics.pdf'
 
@@ -10,21 +10,16 @@ function Home() {
         <div className='container'>
             <div className="content home-content">
                 <h1>Welcome to Hooper Irrigation</h1>
-                {/* <div className='notice'>
-                    <h1>2022 Annual Stockholder's Meeting of Hooper Irrigation Company</h1>
-                    <h1>Hooper City Civic Center</h1>
-                    <h1>Monday April 25th, 2022 at 7:00 p.m.</h1>
+                <div className='notice'>
+                    <h1>Secondary Water Users please view link below for watering days and guidance.</h1>
                     <div className='content-container'>
                         <div className='link-box'>
-                        <h2>Official Meeting Notice</h2>
-                        <a href={meetingNotice} target='_blank' rel="noopener noreferrer">View Here</a>
+                            <h2 id='link-text'>Secondary Water Guidance 2022</h2>
+                            <a href={secondaryLetter} target='_blank' rel="noiopener noreferrer">View Here</a>
                         </div>       
-                    </div>          
-                </div> */}
-
-                
-                <div className='notice' >
-                    <h1 id='black-txt'>Secondary Pressurized Water bill begins on May 15th, 2022.</h1>
+                    </div>         
+                    <h1 >Secondary Pressurized Water bill begins on May 15th, 2022.</h1>
+ 
                 </div>
                 
                 <div className="content-container">

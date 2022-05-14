@@ -1,5 +1,5 @@
 import React from 'react'
-import beusMitchell from '../../Assets/masterSchedules/Beus Mitchell Half 2022 (1).pdf'
+import beusMitchell from '../../Assets/masterSchedules/Beus Mitchell Half 2022 (2).pdf'
 import buckMclean from '../../Assets/masterSchedules/Buck McLean Half 2022 (2).pdf'
 import cristelliPenman from '../../Assets/masterSchedules/Cristelli Penman Half 2022 (1).pdf'
 import danceCalderwood from '../../Assets/masterSchedules/Dance Calderwood Half 2022 (1).pdf'
@@ -14,7 +14,7 @@ import south16 from '../../Assets/masterSchedules/South 1 & 6 Half 2022.pdf'
 import south23 from '../../Assets/masterSchedules/South 2 & 3 Half 2022 (1).pdf'
 import south45 from '../../Assets/masterSchedules/South 4 & 5 Half 2022.pdf'
 import south78 from '../../Assets/masterSchedules/South 7 & 8 Half 2022 (1).pdf'
-import south910 from '../../Assets/masterSchedules/South 9 & 10 Half 2022.pdf'
+import south910 from '../../Assets/masterSchedules/South 9 & 10 Half 2022 (1).pdf'
 import south1112 from '../../Assets/masterSchedules/South 11 & 12 Half 2022 (2).pdf'
 import taylor1 from '../../Assets/masterSchedules/Taylor Half 1 2022 (1).pdf'
 import taylor2 from '../../Assets/masterSchedules/Taylor Half 2 2022.pdf'
@@ -29,7 +29,7 @@ function Schedules() {
         <div className='container'>
             <div className="content" id='schedules-content'>
                 <h2>Water Schedules</h2>
-                <h3 className='notice' id='narrow-notice'>Updated April 30, 2022</h3>
+                <h3 className='notice' id='narrow-notice'>Updated May 14, 2022</h3>
                 <table className="schedule-table">
                     <tr>
                         <th>Ditch</th>
@@ -37,7 +37,7 @@ function Schedules() {
                         <th>Download File</th>
                     </tr>
                     <tr>
-                        <td><div>Beus Mitchell </div><p className='td-date'>Apr 19, 2022</p></td>
+                        <td><div>Beus Mitchell </div><p className='td-date'>May 14, 2022</p></td>
                         <td><a href={beusMitchell} target='_blank' rel="noopener noreferrer">View</a></td>
                         <td><a href={beusMitchell} download>Download</a></td>
                     </tr>
@@ -112,7 +112,7 @@ function Schedules() {
                         <td><a href={south78} download>Download</a></td>
                     </tr>
                     <tr>
-                        <td>South 9 &amp; 10 <p className='td-date'>Apr 17, 2022</p></td>
+                        <td>South 9 &amp; 10 <p className='td-date'>May 14, 2022</p></td>
                         <td><a href={south910} target='_blank' rel="noopener noreferrer">View</a></td>
                         <td><a href={south910} download>Download</a></td>
                     </tr>
