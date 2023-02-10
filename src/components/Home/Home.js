@@ -10,7 +10,7 @@ function Home() {
         <div className='container'>
             <div className="content home-content">
                 <h1>Welcome to Hooper Irrigation</h1>
-                <div className='notice'>
+                {/* <div className='notice'>
                     <h1>Secondary Water Users please view link below for watering days and guidance.</h1>
                     <div className='content-container'>
                         <div className='link-box'>
@@ -20,7 +20,7 @@ function Home() {
                     </div>         
                     <h1 >Secondary Pressurized Water bill begins on May 15th, 2022.</h1>
  
-                </div>
+                </div> */}
                 
                 <div className="content-container">
                     <div className="home-text">
