@@ -9,7 +9,7 @@ import moore from '../../Assets/masterSchedules/Moore.pdf'
 import muskrat1 from '../../Assets/masterSchedules/Muskrat 1.pdf'
 import muskrat3 from '../../Assets/masterSchedules/Muskrat 3.pdf'
 import muskrat4 from '../../Assets/masterSchedules/Muskrat 4.pdf'
-import naisbitt from '../../Assets/masterSchedules/Naisbitt.pdf'
+import naisbitt from '../../Assets/masterSchedules/Naisbitt (1).pdf'
 import northSimpson from '../../Assets/masterSchedules/North Simpson.pdf'
 import south1 from '../../Assets/masterSchedules/South 1 (1).pdf'
 import south2 from '../../Assets/masterSchedules/South 2.pdf'
@@ -41,7 +41,7 @@ import wwHeslop from '../../Assets/masterSchedules/WW Heslop.pdf'
 import wwMcfarland from '../../Assets/masterSchedules/WW McFarland.pdf'
 import wwMclean from '../../Assets/masterSchedules/WW McLean.pdf'
 import wwPenman from '../../Assets/masterSchedules/WW Penman.pdf'
-import wwSurrage from '../../Assets/masterSchedules/WW Surrage.pdf'
+import wwSurrage from '../../Assets/masterSchedules/WW Surrage (1).pdf'
 import zinie from '../../Assets/masterSchedules/Zinie.pdf'
 
 import './Schedules.css'
@@ -51,7 +51,7 @@ function Schedules() {
         <div className='container'>
             <div className="content" id='schedules-content'>
                 <h2>Water Schedules</h2>
-                <h3 className='notice' id='narrow-notice'>Updated May 9, 2023</h3>
+                <h3 className='notice' id='narrow-notice'>Updated May 13, 2023</h3>
                 <table className="schedule-table">
                     <tr>
                         <th>Ditch</th>
@@ -109,7 +109,7 @@ function Schedules() {
                         <td><a href={muskrat4} download>Download</a></td>
                     </tr>
                     <tr>
-                        <td><div>Naisbitt </div><p className='td-date'>April 29, 2023</p></td>
+                        <td><div>Naisbitt </div><p className='td-date'>May 13, 2023</p></td>
                         <td><a href={naisbitt} target='_blank' rel="noopener noreferrer">View</a></td>
                         <td><a href={naisbitt} download>Download</a></td>
                     </tr>
@@ -269,7 +269,7 @@ function Schedules() {
                         <td><a href={wwPenman} download>Download</a></td>
                     </tr>
                     <tr>
-                        <td><div>WW Surrage </div><p className='td-date'>April 29, 2023</p></td>
+                        <td><div>WW Surrage </div><p className='td-date'>May 13, 2023</p></td>
                         <td><a href={wwSurrage} target='_blank' rel="noopener noreferrer">View</a></td>
                         <td><a href={wwSurrage} download>Download</a></td>
                     </tr>
