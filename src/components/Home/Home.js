@@ -2,7 +2,7 @@ import React from 'react'
 import './Home.css'
 import sprinklers from '../../Assets/sprinklers.jpeg'
 import secondaryLetter from '../../Assets/Secondary Water Letter 2022.pdf'
-import directorApplication from '../../Assets/Application for Director.pdf'
+import directorApplication from '../../Assets/Director Application.pdf'
 import directorCodeOfEthics from '../../Assets/Director Code of Ethics.pdf'
 
 function Home() {

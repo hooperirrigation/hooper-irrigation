@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import directorApplication from '../../Assets/Application for Director.pdf'
+import directorApplication from '../../Assets/Director Application.pdf'
 import directorCodeofEthics from '../../Assets/Director Code of Ethics.pdf'
 function About() {
     return (

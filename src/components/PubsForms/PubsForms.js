@@ -1,6 +1,6 @@
 import React from 'react'
 import './PubsForms.css'
-import directorApplication from '../../Assets/Application for Director.pdf'
+import directorApplication from '../../Assets/Director Application.pdf'
 import directorCodeOfEthics from '../../Assets/Director Code of Ethics.pdf'
 import specifications from '../../Assets/Hooper Irr Co Std Details.pdf'
 import bylaws from '../../Assets/Hooper Irrigation Bylaws.pdf'
