@@ -51,7 +51,7 @@ function Schedules() {
         <div className='container'>
             <div className="content" id='schedules-content'>
                 <h2>Water Schedules</h2>
-                <h3 className='notice' id='narrow-notice'>Updated April 20, 2024</h3>
+                <h3 className='notice' id='narrow-notice'>Updated April 23, 2024</h3>
                 <table className="schedule-table">
                     <tr>
                         <th>Ditch</th>
@@ -124,7 +124,7 @@ function Schedules() {
                         <td><a href={south1} download>Download</a></td>
                     </tr>
                     <tr>
-                        <td><div>South 2 </div><p className='td-date'>April 20, 2024</p></td>
+                        <td><div>South 2 </div><p className='td-date'>April 23, 2024</p></td>
                         <td><a href={south2} target='_blank' rel="noopener noreferrer">View</a></td>
                         <td><a href={south2} download>Download</a></td>
                     </tr>
