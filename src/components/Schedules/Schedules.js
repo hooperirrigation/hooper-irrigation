@@ -19,7 +19,7 @@ import south5 from '../../Assets/masterSchedules/South 5.pdf'
 import south6 from '../../Assets/masterSchedules/South 6.pdf'
 import south7 from '../../Assets/masterSchedules/South 7.pdf'
 import south8 from '../../Assets/masterSchedules/South 8.pdf'
-import south9 from '../../Assets/masterSchedules/South 9.pdf'
+import south9 from '../../Assets/masterSchedules/South 9 (1).pdf'
 import south10 from '../../Assets/masterSchedules/South 10.pdf'
 import south11 from '../../Assets/masterSchedules/South 11.pdf'
 import south12 from '../../Assets/masterSchedules/South 12.pdf'
@@ -51,7 +51,7 @@ function Schedules() {
         <div className='container'>
             <div className="content" id='schedules-content'>
                 <h2>Water Schedules</h2>
-                <h3 className='notice' id='narrow-notice'>Updated April 23, 2024</h3>
+                <h3 className='notice' id='narrow-notice'>Updated May 14, 2024</h3>
                 <table className="schedule-table">
                     <tr>
                         <th>Ditch</th>
@@ -159,7 +159,7 @@ function Schedules() {
                         <td><a href={south8} download>Download</a></td>
                     </tr>
                     <tr>
-                        <td><div>South 9 </div><p className='td-date'>April 18, 2024</p></td>
+                        <td><div>South 9 </div><p className='td-date'>May 11, 2024</p></td>
                         <td><a href={south9} target='_blank' rel="noopener noreferrer">View</a></td>
                         <td><a href={south9} download>Download</a></td>
                     </tr>
